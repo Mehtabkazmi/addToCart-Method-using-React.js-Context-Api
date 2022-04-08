@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 *{
     padding: 0;
     margin: 0;
+    font-family: Poppins;
 }
 table{
     width: 100%;
 }
 th{
-    background-color: rgb(215, 150, 93);
+    background-color: #DCB795;
     color:white;
 }
 th,td{

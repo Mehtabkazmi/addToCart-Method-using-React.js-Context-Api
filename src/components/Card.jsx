@@ -58,6 +58,6 @@ const Button = styled.button`
     border:none;
     border-radius:5px;
     margin:5px;
-    background-color: rgb(215, 150, 93);
+    background-color: #DCB795;
     cursor:pointer;
 `;

@@ -31,7 +31,7 @@ const Header=()=> {
 export default Header
 const Container = styled.div`
     height: 60px;
-    background-color: rgb(215, 150, 93);
+    background-color: #DCB795;
   ${mobile({ height: "50px" })}
 `;
 const Wrapper = styled.div`
@@ -59,7 +59,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
-  background-color: rgb(215, 150, 93);
+  background-color: #DCB795;
   ${mobile({ width: "70px" })}
 `;
 const Left = styled.div`

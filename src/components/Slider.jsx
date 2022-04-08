@@ -45,7 +45,7 @@ const Slide = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color:rgb(215, 150, 93);
+  background-color:#DCB795;
 `;
 
 const ImgContainer = styled.div`

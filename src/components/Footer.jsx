@@ -27,7 +27,7 @@ const Footer=()=> {
 export default Footer
 
 const Container = styled.div`
-    border-top: 5px solid gray;
+    border-top: 5px solid #DCB795;
     margin-top:20px;
 `;
 const Wrapper = styled.div`
