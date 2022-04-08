@@ -14,7 +14,7 @@ const Card=({name,image,price})=> {
               <Heading3>{name}</Heading3>
               <Button onClick={()=>addToCart(name,image,price)}>
                  Add To Cart <AiFillShopping/>
-              </Button>
+          </Button>
           </Purchase>
           <Heading4 className='price'>{ price}</Heading4>
     </Card1>
@@ -22,6 +22,7 @@ const Card=({name,image,price})=> {
 }
 
 export default Card
+
 const Card1 = styled.div`
   margin: 5px;
   width: 280px;

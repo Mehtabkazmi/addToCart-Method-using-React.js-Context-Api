@@ -1,13 +1,14 @@
 import Card from '../components/Card'
 import styled from 'styled-components';
-import { mobile } from '../responsive';
 import { products } from '../data';
 const Product = () => {
   return (
     <Container>
           {products && products.map((item,index) => (  
-              <div key={index}>
-                <Card name={ item.name} image={item.image} price={item.price} />
+            <div key={index}>
+              {item.cat.map((i, index) => (
+                <Card name={ i.name} image={i.image} price={i.price} id={i.id} />
+              ))}
               </div>
           ))}
     </Container>

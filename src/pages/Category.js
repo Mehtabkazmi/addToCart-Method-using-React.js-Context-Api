@@ -1,13 +1,11 @@
 import React from 'react'
-import { products } from '../data';
 import styled from 'styled-components';
-const Category = ({CatName,Catimage}) => {
-    
+const Category = ({CatName,Catimage,cat}) => {
     return (
     <Card1>
             <Image src={Catimage} alt="" />
-          <Purchase>
-              <Heading3>{CatName}</Heading3>
+            <Purchase>
+                <Heading3>{CatName}</Heading3>
           </Purchase>
     </Card1>
   )
@@ -40,16 +38,4 @@ const Purchase = styled.div`
 `;
 const Heading3 = styled.h2`
     
-`;
-const Heading4 = styled.h4`
-    
-`;
-const Button = styled.button`
-    width:200px;
-    height:30px;
-    border:none;
-    border-radius:5px;
-    margin:5px;
-    background-color: rgb(215, 150, 93);
-    cursor:pointer;
 `;
