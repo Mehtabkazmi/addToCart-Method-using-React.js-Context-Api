@@ -1,5 +1,6 @@
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
+// import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
+import { BiLeftArrow,BiRightArrow } from 'react-icons/bi';
 import styled from "styled-components";
 import { sliderItems } from "../data";
 import { mobile } from "../responsive";
@@ -87,7 +88,7 @@ const Slider = () => {
   return (
     <Container>
       <Arrow direction="left" onClick={() => handleClick("left")}>
-        <ArrowLeftOutlined />
+        <BiLeftArrow />
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
@@ -103,7 +104,7 @@ const Slider = () => {
         ))}
       </Wrapper>
       <Arrow direction="right" onClick={() => handleClick("right")}>
-        <ArrowRightOutlined />
+        <BiRightArrow />
       </Arrow>
     </Container>
   );
